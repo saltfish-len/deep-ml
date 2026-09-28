@@ -22,7 +22,7 @@ class DropoutLayer:
             # rescale
             return x
         # generate mask
-        self.mask = (np.random.rand(*x.shape) < (1 - self.p)) / (1 - self.p)
+        self.mask = (np.random.binomial(1, 1 - self.p, size=x.shape)) / (1 - self.p)
         # apply the mask
         return x*self.mask
 
