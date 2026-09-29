@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T20:51:48.266Z",
+  "generated_at": "2026-09-29T21:16:54.076Z",
   "items": {
     "problem:3": {
       "kind": "problem",
@@ -59,6 +59,19 @@
       "path": "math/0025-kl-divergence",
       "first_solved_at": "2026-09-29T20:51:47.302Z",
       "last_pushed_at": "2026-09-29T20:51:47.302Z"
+    },
+    "problem:83": {
+      "kind": "problem",
+      "id": "83",
+      "title": "Dot Product Calculator",
+      "difficulty": "easy",
+      "category": "Linear Algebra",
+      "url": "https://www.deep-ml.com/problems/83",
+      "path": "problems/0083-dot-product-calculator",
+      "first_solved_at": "2026-09-29T21:16:50.103Z",
+      "last_pushed_at": "2026-09-29T21:16:50.103Z",
+      "language": "python",
+      "lines": 13
     }
   }
 }
