@@ -14,5 +14,5 @@ def predict_logistic(X: np.ndarray, weights: np.ndarray, bias: float) -> np.ndar
 	"""
 	# Your code here
 	z = X @ weights + bias
-	s = 1/(1+np.exp(-z))
-	return (s >= 0.5).astype(int)
+	# s = 1/(1+np.exp(-z))
+	return (z >= 0).astype(int)
